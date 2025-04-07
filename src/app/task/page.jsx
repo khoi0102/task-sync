@@ -115,7 +115,7 @@ export default function Page() {
         return date.toISOString().split('T')[0];
     };
     return (
-        <div className="min-h-screen bg-[#F9E9EC] py-8 px-4 relative">
+        <div className="min-h-screen bg-[#CADCFC] py-8 px-4 relative">
             {notification.show && (
                 <div className={`fixed top-4 right-4 left-4 md:left-auto md:right-4 md:w-96 p-4 rounded-lg shadow-lg transition-all duration-300 transform translate-y-0 ${
                     notification.type === 'success' ? 'bg-green-100 border-l-4 border-green-500 text-green-700' :
@@ -238,7 +238,7 @@ export default function Page() {
                 )}
 
                 <div className="mt-8 p-6 bg-white rounded-xl shadow-lg">
-                    <h2 className="text-2xl font-bold mb-6 text-[#000000] flex items-center">
+                    <h2 className="text-2xl font-bold mb-6 text-[#00246B] flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
