@@ -107,7 +107,7 @@ export default function Page() {
     };
     
     return (
-        <div className="min-h-screen bg-[#F9E9EC] py-8 px-4 relative">
+        <div className="min-h-screen bg-[#CADCFC] py-8 px-4 relative">
             {notification.show && (
                 <div className={`fixed top-4 right-4 left-4 md:left-auto md:right-4 md:w-96 p-4 rounded-lg shadow-lg transition-all duration-300 transform translate-y-0 ${
                     notification.type === 'success' ? 'bg-green-100 border-l-4 border-green-500 text-green-700' :
@@ -140,7 +140,7 @@ export default function Page() {
 
             <div className="max-w-4xl mx-auto">
                 <div className="flex justify-between items-center mb-8">
-                    <h1 className="text-3xl font-bold text-[#577590]">Group Management</h1>
+                    <h1 className="text-3xl font-bold text-[#000000]">Group Management</h1>
                     <button
                         onClick={toggleForm}
                         className="bg-[#F2A541] hover:bg-[#F08A4B] text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 flex items-center"
@@ -153,12 +153,12 @@ export default function Page() {
                 </div>
 
                 {showForm && (
-                    <div className="mb-8 p-8 bg-white rounded-xl shadow-lg border-l-4 border-[#577590] transform transition-all duration-300">
-                        <h2 className="text-2xl font-bold mb-6 text-[#577590]">Create New Group</h2>
+                    <div className="mb-8 p-8 bg-white rounded-xl shadow-lg border-l-4 border-[#F08A4B] transform transition-all duration-300">
+                        <h2 className="text-2xl font-bold mb-6 text-[#00246B]">Create New Group</h2>
                         <form onSubmit={saveGroup} className="space-y-6">
                             <div>
                                 <label
-                                    className="block text-sm font-semibold text-gray-700 mb-2"
+                                    className="block text-sm font-semibold text-black-700 mb-2"
                                     htmlFor="groupName"
                                 >
                                     Group Name
@@ -175,7 +175,7 @@ export default function Page() {
                             </div>
                             <div>
                                 <label
-                                    className="block text-sm font-semibold text-gray-700 mb-2"
+                                    className="block text-sm font-semibold text-black-700 mb-2"
                                     htmlFor="groupDescription"
                                 >
                                     Group Description
@@ -193,7 +193,7 @@ export default function Page() {
                             <div className="flex space-x-4">
                                 <button
                                     type="submit"
-                                    className="bg-[#577590] hover:bg-[#4A6275] text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 flex-1"
+                                    className="bg-[#F2A541] hover:bg-[#F08A4B] text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 flex-1"
                                 >
                                     Create Group
                                 </button>
@@ -210,7 +210,7 @@ export default function Page() {
                 )}
 
                 <div className="mt-8 p-6 bg-white rounded-xl shadow-lg">
-                    <h2 className="text-2xl font-bold mb-6 text-[#577590] flex items-center">
+                    <h2 className="text-2xl font-bold mb-6 text-[#000000] flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -236,7 +236,7 @@ export default function Page() {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-gray-300 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                             </svg>
-                            <p className="text-gray-500 text-lg">No groups to display yet...</p>
+                            <p className="text-black-500 text-lg">No groups to display yet...</p>
                             <p className="text-gray-400 mt-2">Your groups will appear here once you create them.</p>
                             <button
                                 onClick={toggleForm}

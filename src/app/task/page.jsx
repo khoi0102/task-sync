@@ -162,12 +162,12 @@ export default function Page() {
                 </div>
 
                 {showForm && (
-                    <div className="mb-8 p-8 bg-white rounded-xl shadow-lg border-l-4 border-[#577590] transform transition-all duration-300">
-                        <h2 className="text-2xl font-bold mb-6 text-[#577590]">Create New Task</h2>
+                    <div className="mb-8 p-8 bg-white rounded-xl shadow-lg border-l-4 border-[#F2A541] transform transition-all duration-300">
+                        <h2 className="text-2xl font-bold mb-6 text-[#00246B]">Create New Task</h2>
                         <form onSubmit={saveTask} className="space-y-6">
                             <div>
                                 <label
-                                    className="block text-sm font-semibold text-gray-700 mb-2"
+                                    className="block text-sm font-semibold text-black-700 mb-2"
                                     htmlFor="taskName"
                                 >
                                     Task Name
@@ -190,7 +190,7 @@ export default function Page() {
                                     Task Description
                                 </label>
                                 <textarea
-                                    className="block w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#F3CA40] focus:border-transparent transition"
+                                    className="block w-full rounded-lg border border-gray-300 px-4 py-3 text-black-700 focus:outline-none focus:ring-2 focus:ring-[#F3CA40] focus:border-transparent transition"
                                     id="taskDescription"
                                     placeholder="Enter Task Description"
                                     name="description"
@@ -201,7 +201,7 @@ export default function Page() {
                             </div>
                             <div>
                                 <label
-                                    className="block text-sm font-semibold text-gray-700 mb-2"
+                                    className="block text-sm font-semibold text-black-700 mb-2"
                                     htmlFor="dueDate"
                                 >
                                     Due Date
@@ -222,7 +222,7 @@ export default function Page() {
                             <div className="flex space-x-4">
                                 <button
                                     type="submit"
-                                    className="bg-[#577590] hover:bg-[#4A6275] text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 flex-1"
+                                    className="bg-[#F2A541] hover:bg-[#F08A4B] text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 flex-1"
                                 >
                                     Save Task
                                 </button>
