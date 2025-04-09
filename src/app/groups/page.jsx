@@ -153,7 +153,7 @@ export default function Page() {
                 </div>
 
                 {showForm && (
-                    <div className="mb-8 p-8 bg-white rounded-xl shadow-lg border-l-4 border-[#F08A4B] transform transition-all duration-300">
+                    <div className="mb-8 p-8 bg-white rounded-xl shadow-lg border-l-4 border-[#F3CA40] transform transition-all duration-300">
                         <h2 className="text-2xl font-bold mb-6 text-[#00246B]">Create New Group</h2>
                         <form onSubmit={saveGroup} className="space-y-6">
                             <div>
