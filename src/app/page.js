@@ -308,7 +308,7 @@ export default function HomePage() {
         );
     }
     return (
-        <main className="min-h-screen bg-gradient-to-b from-[#CADCFC] to-[#F3CA40]/80 flex flex-col items-center justify-center overflow-hidden">
+        <main className="min-h-screen bg-gradient-to-b from-[#CADCFC] to-[#F9E9EC]/80 flex flex-col items-center justify-center overflow-hidden">
             <motion.section
                 className="text-center max-w-3xl mx-auto px-4 py-12"
                 initial="hidden"
@@ -322,7 +322,7 @@ export default function HomePage() {
                         transition: {duration: 2, repeat: Infinity, repeatType: "reverse"}
                     }}
                 >
-                    Welcome to TaskSync
+                    Welcome to TaskSyncs
                 </motion.h1>
                 <motion.p
                     className="text-lg md:text-xl text-[#00246B]/90 mb-8 leading-relaxed"
