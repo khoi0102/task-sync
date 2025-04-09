@@ -308,7 +308,7 @@ export default function HomePage() {
         );
     }
     return (
-        <main className="min-h-screen bg-gradient-to-b from-[#F9E9EC] to-[#F9E9EC]/80 flex flex-col items-center justify-center overflow-hidden">
+        <main className="min-h-screen bg-gradient-to-b from-[#CADCFC] to-[#F3CA40]/80 flex flex-col items-center justify-center overflow-hidden">
             <motion.section
                 className="text-center max-w-3xl mx-auto px-4 py-12"
                 initial="hidden"
@@ -316,16 +316,16 @@ export default function HomePage() {
                 variants={fadeIn}
             >
                 <motion.h1
-                    className="text-4xl md:text-6xl font-bold text-[#577590] mb-6"
+                    className="text-4xl md:text-6xl font-bold text-[#000000] mb-6"
                     animate={{
                         scale: [1, 1.03, 1],
                         transition: {duration: 2, repeat: Infinity, repeatType: "reverse"}
                     }}
                 >
-                    Welcome to Task Syncs
+                    Welcome to TaskSync
                 </motion.h1>
                 <motion.p
-                    className="text-lg md:text-xl text-[#577590]/90 mb-8 leading-relaxed"
+                    className="text-lg md:text-xl text-[#00246B]/90 mb-8 leading-relaxed"
                     initial={{opacity: 0}}
                     animate={{opacity: 1}}
                     transition={{delay: 0.3, duration: 0.8}}
@@ -339,7 +339,7 @@ export default function HomePage() {
                 >
                     <SignInButton
                         mode="modal"
-                        className="inline-block bg-[#F3CA40] text-[#577590] font-semibold px-8 py-4 rounded-full shadow-md hover:bg-[#F2A541] transition-colors"
+                        className="inline-block bg-[#F3CA40] text-[#FFFFFF] font-semibold px-8 py-4 rounded-full shadow-md hover:bg-[#F2A541] transition-colors"
                     >
                         Get Started
                     </SignInButton>
