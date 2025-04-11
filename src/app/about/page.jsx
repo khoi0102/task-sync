@@ -59,7 +59,7 @@ export default function AboutPage() {
                     <h1 className="text-4xl font-bold text-[#000000] mb-4">About TaskSync</h1>
                     <div className="h-1 w-24 bg-[#F2A541] mx-auto rounded-full mb-8"></div>
                     <p className="text-lg text-[#00246B]/80 max-w-2xl mx-auto">
-                        Streamlining task management for teams and individuals with intuitive, powerful tools.
+                        Streamlinings task management for teams and individuals with intuitive, powerful tools.
                     </p>
                 </motion.div>
                 <motion.div
