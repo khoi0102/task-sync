@@ -41,8 +41,8 @@ export default function Navbar() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/calendar", label: "Calendar" },
     ...(isSignedIn ? [
+      { href: "/calendar", label: "Calendar" },
       { href: "/task", label: "Tasks" },
       { href: "/groups", label: "Groups" }] : []),
   ];
